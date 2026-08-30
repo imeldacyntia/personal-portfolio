@@ -867,72 +867,15 @@
 
       <!-- Kolom Kanan: CV Card, Skills & Tools -->
       <div>
-        
-     <!-- Interactive CV QR & Link Drive -->
-    <style>
-      .cv-card-custom {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 24px;
-        background: #ffffff;
-        border-radius: 16px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-        max-width: 320px;
-        margin: 0 auto;
-        text-align: center;
-        box-sizing: border-box;
-      }
-      .qr-frame-custom {
-        padding: 12px;
-        border: 2px dashed #cbd5e1;
-        border-radius: 16px;
-        background-color: #f8fafc;
-        display: inline-flex;
-        margin-bottom: 16px;
-      }
-      .qr-frame-custom img {
-        display: block;
-        width: 140px;
-        height: 140px;
-        border-radius: 8px;
-      }
-      .btn-cv-custom {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        width: 100%;
-        padding: 10px 16px;
-        font-size: 0.88rem;
-        font-weight: 600;
-        color: #4f46e5;
-        background-color: #f5f3ff;
-        border: 1.5px solid #ddd6fe;
-        border-radius: 50px;
-        text-decoration: none !important;
-        transition: all 0.25s ease-in-out;
-        box-sizing: border-box;
-      }
-      .btn-cv-custom:hover {
-        color: #ffffff !important;
-        background-color: #4f46e5 !important;
-        border-color: #4f46e5 !important;
-        transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(79, 70, 229, 0.25);
-      }
-    </style>
-    
-    <div class="cv-card-custom">
-      <div class="qr-frame-custom">
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://drive.google.com/file/d/1y1ZOLbMZ1RN7Je7kijsrIQSH0mktibHi/view?usp=sharing" alt="QR Code CV">
-      </div>
-      <a href="https://drive.google.com/file/d/1y1ZOLbMZ1RN7Je7kijsrIQSH0mktibHi/view?usp=sharing" target="_blank" class="btn-cv-custom">
-        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-        <span>Click or scan to view CV</span>
-      </a>
-    </div>
+        <!-- Interactive CV QR & Link Drive -->
+        <div class="cv-card">
+          <div class="qr-frame">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://drive.google.com/file/d/1y1ZOLbMZ1RN7Je7kijsrIQSH0mktibHi/view?usp=sharing" alt="QR Code CV">
+          </div>
+          <a href="https://drive.google.com/file/d/1y1ZOLbMZ1RN7Je7kijsrIQSH0mktibHi/view?usp=sharing" target="_blank" class="btn-cv">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Click or scan this to see my curriculum vitae
+          </a>
+        </div>
 
         <div class="card">
           <div class="section-title"><i class="fa-solid fa-bullseye"></i> Interest & Expertise</div>
@@ -1143,39 +1086,10 @@
         </a>
       </div>
 
-<!-- Tombol Akses Arsip Folder -->
-      <style>
-        .btn-folder-custom {
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          gap: 8px;
-          max-width: 320px;
-          width: 100%;
-          padding: 10px 18px;
-          font-size: 0.92rem;
-          font-weight: 600;
-          color: #4f46e5;
-          background-color: #f5f3ff;
-          border: 1.5px solid #ddd6fe;
-          border-radius: 50px;
-          text-decoration: none !important;
-          transition: all 0.25s ease-in-out;
-          box-sizing: border-box;
-        }
-        .btn-folder-custom:hover {
-          color: #ffffff !important;
-          background-color: #4f46e5 !important;
-          border-color: #4f46e5 !important;
-          transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(79, 70, 229, 0.25);
-        }
-      </style>
-
+      <!-- Tombol Akses Arsip Folder -->
       <div style="text-align: center; margin-top: 25px;">
-        <a href="https://drive.google.com/drive/folders/1bNnJf6XQwPwxP6sVIgjM8QYIyJe1WX7a?usp=sharing" target="_blank" class="btn-folder-custom">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
-          <span>View All Certificates</span>
+        <a href="https://drive.google.com/drive/folders/1bNnJf6XQwPwxP6sVIgjM8QYIyJe1WX7a?usp=sharing" target="_blank" class="btn-cv" style="max-width: 320px; width: 100%;">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> View All Certificates
         </a>
       </div>
     </section>
