@@ -867,15 +867,18 @@
 
       <!-- Kolom Kanan: CV Card, Skills & Tools -->
       <div>
-        <!-- Interactive CV QR & Link Drive -->
-        <div class="cv-card">
-          <div class="qr-frame">
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://drive.google.com/file/d/1y1ZOLbMZ1RN7Je7kijsrIQSH0mktibHi/view?usp=sharing" alt="QR Code CV">
-          </div>
-          <a href="https://drive.google.com/file/d/1y1ZOLbMZ1RN7Je7kijsrIQSH0mktibHi/view?usp=sharing" target="_blank" class="btn-cv">
-            <i class="fa-solid fa-arrow-up-right-from-square"></i> Click or scan this to see my curriculum vitae
-          </a>
+      <!-- Interactive CV QR & Link Drive -->
+      <div class="cv-card" style="background: #ffffff; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; align-items: center; gap: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); max-width: 400px; margin: 0 auto;">
+        
+        <div class="qr-frame" style="padding: 14px; border: 2px dashed #94a3b8; border-radius: 24px; display: inline-flex; justify-content: center; align-items: center;">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://drive.google.com/file/d/1y1ZOLbMZ1RN7Je7kijsrIQSH0mktibHi/view?usp=sharing" alt="QR Code CV" style="display: block;">
         </div>
+      
+        <a href="https://drive.google.com/file/d/1y1ZOLbMZ1RN7Je7kijsrIQSH0mktibHi/view?usp=sharing" target="_blank" class="btn-cv" style="background-color: #111d2e; color: #ffffff; text-decoration: none; font-size: 13.5px; font-weight: 600; padding: 12px 24px; border-radius: 9999px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 14px rgba(17, 29, 46, 0.25);">
+          <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i> Click or scan this to see my curriculum vitae
+        </a>
+      
+      </div>
 
         <div class="card">
           <div class="section-title"><i class="fa-solid fa-bullseye"></i> Interest & Expertise</div>
